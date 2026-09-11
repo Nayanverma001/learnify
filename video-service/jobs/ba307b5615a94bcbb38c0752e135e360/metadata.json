@@ -1,0 +1,137 @@
+{
+  "totalPages": 101,
+  "totalScenes": 6,
+  "scenes": [
+    {
+      "sceneNumber": 1,
+      "slideType": "standard",
+      "title": "Introduction: Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Progr",
+      "narration": "Welcome to this masterclass on Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Progr. Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Programming and Data Structures 1 *Introduction to linked list *Array versus linked list *Linked lists in C++ *Types of linked lists *Single linked list *Doubly linked list *Circular linked list Today\u2019s Discussion\u2026 CS 10001 : Programming and Data Structures 2 Lecture #05: \u00a9 DSamanta Introduction to Linked Lists CS 11001 : Programming and Data Structures 3 Lecture #??: \u00a9 DSamanta Linked List CS 10001 : Programming and Data Structures 4 Lecture #05: \u00a9 DSamanta \u2022A linked list is a data structure which allows to store data dynamically and manage data efficiently. In this video, we will break down the entire topic in detail, defining every core term, illustrating the inner architecture with diagrams, walking through examples, and testing your retention with checkpoint quizzes.",
+      "keyPoints": [
+        "Fundamental concept introduction",
+        "Why this principle is critical",
+        "Core roadmap for today lecture"
+      ],
+      "visual": {
+        "type": "linked-list",
+        "title": "Memory Node Chain and Pointers",
+        "data": {
+          "nodes": [
+            "HEAD",
+            "Node 1",
+            "Node 2",
+            "Node 3",
+            "NULL"
+          ]
+        }
+      }
+    },
+    {
+      "sceneNumber": 2,
+      "slideType": "definition",
+      "title": "Key Definitions and Core Terminology",
+      "narration": "Before going deeper, we must define the precise terminology. Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Programming and Data Structures 1 *Introduction to linked list *Array versus linked list *Linked lists in C++ *Types of linked lists *Single linked list *Doubly linked list *Circular linked list Today\u2019s Discussion\u2026 CS 10001 : Programming and Data Structures 2 Lecture #05: \u00a9 DSamanta Introduction to Linked Lists CS 11001 : Programming and Data Structures 3 Lecture #??: \u00a9 DSamanta Linked List CS 10001 : Programming and Data Structures 4 Lecture #05: \u00a9 DSamanta \u2022A linked list is a data structure which allows to store data dynamically and manage data efficiently. In formal terms, this concept establishes clear rules and constraints. In simple words, think of it as a set of predictable operations that guarantee a reliable result. Knowing these exact definitions prevents confusion when analyzing complex scenarios.",
+      "definition": "Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Programming and Data Structures 1 *Introduction to linked list *Array versus linked list *Linked lists in C++ *Types of linked lists *Single linked list *Doubly linked list *Circular linked list Today\u2019s Discussion\u2026 CS 10001 : Programming and Data Structures 2 Lecture #05: \u00a9 DSamanta Introduction to Linked Lists CS 11001 : Programming and Data Structures 3 Lecture #??: \u00a9 DSamanta Linked List CS 10001 : Programming and Data Structures 4 Lecture #05: \u00a9 DSamanta \u2022A linked list is a data structure which allows to store data dynamically and manage data efficiently.",
+      "intuition": "\u2022Typically, a linked list, in its simplest form looks like the following A B C NULL header Linked List CS 10001 : Programming and Data Structures 5 Lecture #05: \u00a9 DSamanta \u2022Few salient features \u2022There is a pointer (called header) points the first element (also called node) \u2022Successive nodes are connected by pointers.",
+      "whyItMatters": "Establishes the foundational boundary conditions and guarantees correctness.",
+      "keyPoints": [
+        "Formal mathematical or technical definition",
+        "Plain-English intuitive mental model",
+        "Invariant conditions that always hold true"
+      ],
+      "visual": {
+        "type": "definition",
+        "title": "Term Breakdown",
+        "data": {}
+      }
+    },
+    {
+      "sceneNumber": 3,
+      "slideType": "standard",
+      "title": "Deep Dive: Mechanism and Execution",
+      "narration": "Now let us explore the inner mechanics step by step. \u2022Typically, a linked list, in its simplest form looks like the following A B C NULL header Linked List CS 10001 : Programming and Data Structures 5 Lecture #05: \u00a9 DSamanta \u2022Few salient features \u2022There is a pointer (called header) points the first element (also called node) \u2022Successive nodes are connected by pointers. \u2022Last element points to NULL. Notice how each phase transitions directly into the next. By systematically verifying preconditions at each step, we avoid errors and optimize overall performance.",
+      "keyPoints": [
+        "Phase 1: Precondition check and input parsing",
+        "Phase 2: Core processing and state transformations",
+        "Phase 3: Termination criteria and output verification"
+      ],
+      "visual": {
+        "type": "flowchart",
+        "title": "Execution Pipeline",
+        "data": {
+          "nodes": [
+            "Input Initialization",
+            "Validate Preconditions",
+            "Iterative Execution",
+            "Update State or Range",
+            "Return Verified Result"
+          ]
+        }
+      }
+    },
+    {
+      "sceneNumber": 4,
+      "slideType": "standard",
+      "title": "Structural Architecture and Visual Model",
+      "narration": "Let us examine the structural relationship on screen. \u2022Last element points to NULL. \u2022It can grow or shrink in size during execution of a program. Connecting the theoretical rules to this visual representation allows you to visualize how data flows and where bottlenecks might occur.",
+      "keyPoints": [
+        "Hierarchical or sequential data flow",
+        "Clear separation of concerns across components",
+        "Predictable state transitions at each boundary"
+      ],
+      "visual": {
+        "type": "linked-list",
+        "title": "Memory Node Chain and Pointers",
+        "data": {
+          "nodes": [
+            "HEAD",
+            "Node 1",
+            "Node 2",
+            "Node 3",
+            "NULL"
+          ]
+        }
+      }
+    },
+    {
+      "sceneNumber": 5,
+      "slideType": "quiz",
+      "title": "Interactive Checkpoint Quiz",
+      "narration": "Now it is time for a quick knowledge check to test your understanding. Consider this question: Which statement best describes the fundamental behavior established by this material? Take a second to inspect the four options on your screen. The correct answer is Option A. As we discussed, Option A directly captures the core rule, whereas the alternative options reflect common misconceptions.",
+      "quiz": {
+        "question": "Which statement is strictly true regarding Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Progr?",
+        "options": [
+          "Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : ",
+          "It operates randomly without checking input conditions",
+          "It requires unlimited exponential memory for every execution",
+          "It has no defined termination criteria or output"
+        ],
+        "answerIndex": 0,
+        "explanation": "Option A is directly supported by the material: Lecture #10 Linked Lists Lecture #05: \u00a9 DSamanta CS 10001 : Programming and Data Structures 1 *Introduction to linked li. The other choices contradict basic algorithmic rules."
+      }
+    },
+    {
+      "sceneNumber": 6,
+      "slideType": "standard",
+      "title": "Summary and Exam Takeaways",
+      "narration": "To conclude today lecture, let us summarize the key takeaways. \u2022It can grow or shrink in size during execution of a program. \u2022It can be made just as long as required. Always remember the core definitions, verify your boundary conditions, and apply these principles with confidence. Great work completing this masterclass!",
+      "keyPoints": [
+        "Master the core definition and technical invariants",
+        "Visualize the workflow using structured diagrams",
+        "Avoid common pitfalls by testing boundary cases"
+      ],
+      "visual": {
+        "type": "flowchart",
+        "title": "Mastery Checklist",
+        "data": {
+          "nodes": [
+            "Understand Definition",
+            "Trace Diagram",
+            "Pass Quiz Checkpoint",
+            "Master Topic"
+          ]
+        }
+      }
+    }
+  ]
+}
